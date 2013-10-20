@@ -11,6 +11,7 @@ var betMania = betMania || {};
     .then(function (results) {
 
         // Initializes the layout
+
         var layout = results[0];
         var profileBoxHtml = results[1];
         var profileBoxVM = betMania.viewModels.userProfileViewModel;

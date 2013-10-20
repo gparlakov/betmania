@@ -40,8 +40,6 @@ betMania.ui = {
         }
     },
 
-    
-
     initAllMatchesControls: function () {
         $("#matches-type-select").kendoDropDownList({
             change: function (ev) {
